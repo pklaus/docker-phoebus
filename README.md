@@ -23,7 +23,7 @@ docker run \
     -h $CONT_HOSTNAME \
     --device=/dev/dri:/dev/dri \
     --rm -it \
-  pklaus/phoebus \
+  pklaus/phoebus
 
 xauth remove $CONT_HOSTNAME/unix:0
 ```
